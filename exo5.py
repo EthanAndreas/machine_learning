@@ -33,7 +33,3 @@ plot_points_with_label(x, y)
 # SVM RBF
 model = svm.SVC(kernel='linear')
 process(model,x,y)
-    
-   
-    
-
