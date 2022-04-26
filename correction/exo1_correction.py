@@ -15,7 +15,6 @@ print(x.shape)
 print(y.shape)
 plot_points_with_label(x, y)
 
-
 #process data
 model = svm.SVC(kernel='linear',class_weight='balanced')
 model.fit(x,y)

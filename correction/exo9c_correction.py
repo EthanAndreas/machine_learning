@@ -40,5 +40,3 @@ min_samples_split=20,max_features='sqrt',max_samples=0.4,)
 
 print(np.mean(res))
 print(np.std(res))
-
-

@@ -32,7 +32,6 @@ print("Feature ranking:")
 for f in range(x.shape[1]):
     print("%d. feature %d (%f)" % (f + 1, indices[f], importances[indices[f]]))
 
-
 t1 = time.time()
 s = SelectFromModel(forest, prefit=True,max_features=3)
 x_new = s.transform(x)

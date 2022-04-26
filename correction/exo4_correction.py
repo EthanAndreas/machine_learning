@@ -5,8 +5,6 @@ from fig import plot_points_with_label, plot_decision_regions
 from sklearn.metrics import confusion_matrix
 from sklearn.preprocessing import StandardScaler
 
-
-
 def process(model,x,y):
     model.fit(x,y)    
     y_predict = model.predict(x)
@@ -26,7 +24,6 @@ x[:,1]=x[:,1]*100;
 x[:,0]=x[:,0]/100;
 plot_points_with_label(x, y)
 
-
 model = svm.SVC(kernel='linear',class_weight='balanced',C = 1, gamma=1)
 print("without normalization")
 process(model,x,y)
@@ -41,7 +38,6 @@ print("variance de x : {}".format(Scaler.var_)) # a changer
 
 model = svm.SVC(kernel='linear',class_weight='balanced',C = 1, gamma=1)
 process(model,x,y)
-
 
 # Generate datasets
 size = 200
