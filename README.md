@@ -1,4 +1,4 @@
-# Supervised_unsupervised_learning
+# Supervised learning
 
 ## Tips
 
@@ -20,3 +20,14 @@ You must install the following packages: pandas, matplotlib, sklearn, numpy, tor
 ## Language
 
 Python
+
+# Unsupervised learning
+
+## Summary
+ 
+ - Study of clustering with data set (mickey mouse, flower, pancake)
+ - Clustering with keams algorithm
+
+## Plateform of coding
+
+Matlab
