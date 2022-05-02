@@ -1,14 +1,11 @@
 function visualize_2Dclustering(fig,data,centroids,labels,Sigma)
-%%%%%%%%%%%%%%%%%%%%% Visualize a 2D clustering  %%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%% Input:
 % - fig (handle) : figure handle to use for display
 % - data (N x D, float) : input data (N samples of dimension D)
 % - [OPTIONAL] centroids (K x D, float) : positions of the K centroids
 % - [OPTIONAL] labels (N x 1, int) : label of each point in 1:K
 % - [OPTIONAL] Sigma (K x D x D, float) : covariance matrices for ellipses
-%%%%%% Author:
-% antoine.deleforge@inria.fr (2021)
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 clf(fig);
 hold on;
 

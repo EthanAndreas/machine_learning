@@ -1,5 +1,4 @@
 function [data,true_centroids,true_labels] = dataset_flower(K)
-%%%%%%%%%%%%%%%%%%%%%% Generate a flower dataset %%%%%%%%%%%%%%%%%%%%%%%%%%
 % Description : Generate a flower dataset of N points and K centroids
 %%%%%% Input:
 % - K (int) : desired number of clusters
@@ -7,9 +6,7 @@ function [data,true_centroids,true_labels] = dataset_flower(K)
 % - data (N x D, float) : the dataset (N samples of dimension D=2)
 % - true_ centroids (K x D, float) : true positions of the K centroids
 % - true_labels (N x 1, int) : true label of each point in 1:K
-%%%%%% Author:
-% antoine.deleforge@inria.fr (2021)
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 N = 3000;
 D = 2;
 r_petal = 4;
